@@ -1,0 +1,33 @@
+citHeader("To cite the WaTL package, please cite both the package and the paper:")
+
+bibentry(
+  bibtype  = "Manual",
+  title    = "WaTL: Wasserstein Transfer Learning",
+  author   = c(person("Xinran", "Wang"),
+               person("Sinian", "Zhang")),
+  year     = "2025",
+  note     = "R package version 0.1.0",
+  url      = "https://github.com/xwang5-design/WaTL",
+  textVersion = paste(
+    "Wang, X., & Zhang, S. (2025).",
+    "WaTL: Wasserstein Transfer Learning.",
+    "R package version 0.1.0."
+  )
+)
+
+bibentry(
+  bibtype  = "Article",
+  title    = "Wasserstein Transfer Learning",
+  author   = c(person("Kaicheng", "Zhang"),
+               person("Sinian", "Zhang"),
+               person("Doudou", "Zhou"),
+               person("Yidong", "Zhou")),
+  journal  = "arXiv preprint arXiv:2505.17404",
+  year     = "2025",
+  url      = "https://arxiv.org/abs/2505.17404",
+  textVersion = paste(
+    "Zhang, K., Zhang, S., Zhou, D., & Zhou, Y. (2025).",
+    "Wasserstein Transfer Learning.",
+    "arXiv preprint arXiv:2505.17404."
+  )
+)

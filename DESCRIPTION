@@ -1,0 +1,36 @@
+Package: WaTL
+Type: Package
+Title: Wasserstein Transfer Learning
+Version: 0.1.0
+Authors@R: c(
+    person("Xinran", "Wang", email = "xwang5@colgate.edu", role = c("aut", "cre")),
+    person("Sinian", "Zhang", email = "zhan9381@umn.edu", role = "aut"))
+Description: Implements the Wasserstein Transfer Learning (WaTL) algorithm for
+    distribution regression. The package provides methods for combining information
+    from target and source datasets to improve prediction accuracy when dealing with
+    distributional responses. The algorithm uses weighted auxiliary estimators,
+    bias correction, and projection to the Wasserstein space. See Zhang et al. (2025)
+    <arXiv:2505.17404> for details.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.5.0)
+Imports:
+    truncnorm,
+    Matrix,
+    osqp,
+    parallel,
+    doParallel,
+    foreach,
+    doSNOW,
+    stats,
+    utils
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+URL: https://github.com/xwang5-design/WaTL
+BugReports: https://github.com/xwang5-design/WaTL/issues
+RoxygenNote: 7.3.1
